@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 50px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* src/App.css */
+.shogi-board {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr); /* 9x9 grid for Shogi */
+  gap: 5px;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: #f0d9b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+}

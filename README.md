@@ -1,4 +1,4 @@
-## Shogi Web App
+# Shogi Web App
 
 A full-stack web application for playing Shogi, with real-time piece movement tracking, multiplayer support, and PDF export functionality for game history. This app implements the traditional 9x9 Shogi game, following the official rules, with drag-and-drop functionality, multiplayer interaction, and an option to save the game history at the end.
 
